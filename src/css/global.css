@@ -2,10 +2,6 @@
 
 body{
   font-family: 'Roboto Condensed', sans-serif;
- 
-};
-
-h1{
-  font-weight:300;
-  font-size: 60em;
+  font-size: 1em;
+  font-weight: 300;
 }
