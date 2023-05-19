@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap');
 html{
   color: var( --color-white );
-  font-size: 1em;
   font-weight: 300;
 }
 
@@ -11,3 +10,8 @@ body{
   font-family: var( --font-primary );
   font-size: var( --normal-font );
 }
+a{
+  color: var( --color-white );
+}
+
+
