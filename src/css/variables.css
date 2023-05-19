@@ -8,4 +8,12 @@
 :root{
   --font-primary: 'Roboto Condensed', sans-serif;
   --font-secundary: 'Raleway', sans-serif;
+  --big-font: 3em;
+  --extra-big-font: 4em;
+  --medium-font: 2em;
+  --normal-font: 1em;
+}
+
+:root {
+
 }
