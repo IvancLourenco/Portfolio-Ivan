@@ -1,0 +1,37 @@
+.header{
+  background-color: rgb(29, 26, 28);
+  padding: 2em 1em;
+}
+
+.header .logo{
+  font-family: var(--font-secundary);
+  font-size: var(--extra-big-font);
+  border: 2px solid var(--color-white);
+  border-radius: 50%;
+  width: 65px;
+  height: 65px;
+  line-height: 55px;
+  text-align: center;
+  text-decoration: underline;
+  transition: 0.2s;
+}
+
+.header a:hover .logo{
+  color: var(--color-primary);
+  border: 2px solid var(--color-primary);
+}
+
+.header nav ul{
+  display: flex;
+}
+
+.header nav ul a{
+ text-transform: capitalize;
+ font-size: var(--medium-font);
+font-weight: 300;
+padding: 10px 20px;
+transition: 0.2s;
+border-radius: 50px;
+letter-spacing: 1px;
+user-select: none;
+}

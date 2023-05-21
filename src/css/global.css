@@ -14,4 +14,9 @@ a{
   color: var( --color-white );
 }
 
+.row{
+  display: flex;
+  
+}
+
 

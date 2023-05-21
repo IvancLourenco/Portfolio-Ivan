@@ -8,9 +8,9 @@
 :root{
   --font-primary: 'Roboto Condensed', sans-serif;
   --font-secundary: 'Raleway', sans-serif;
-  --big-font: 3em;
-  --extra-big-font: 4em;
-  --medium-font: 2em;
+  --big-font: 2.5em;
+  --extra-big-font: 3em;
+  --medium-font: 1.4em;
   --normal-font: 1em;
 }
 
