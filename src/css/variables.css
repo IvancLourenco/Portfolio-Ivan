@@ -2,7 +2,8 @@
   --color-primary: #FF9F6F;
   --color-secondary: #08C6CD;
   --color-white:#ffff;
-  --color-background-gray: rgba(43, 44, 80, 0.81);
+  --color-background-gray: rgb(29, 26, 28);
+  --color-dark: rgb(12 11 12);
 }
 
 :root{
@@ -15,5 +16,5 @@
 }
 
 :root {
- --mobile-padding: 2em;
+ --mobile-padding: 1.8em;
 }
