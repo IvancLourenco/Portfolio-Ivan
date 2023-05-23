@@ -14,9 +14,20 @@ a{
   color: var( --color-white );
 }
 
+.container{
+  max-width: 1140px;
+  margin: auto;
+}
+
 .row{
   display: flex;
+  flex-wrap: wrap;
+}
+
+.justify-content-between{
   justify-content: space-between;
+}
+.align-items{
   align-items: center;
 }
 
