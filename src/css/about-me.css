@@ -1,0 +1,14 @@
+.about-me .image-about-me{
+  max-width: 40%;
+  padding: 0 15px;
+}
+
+.about-me .image-about-me .img-box{
+  padding: 15px;
+  border-radius: 5px;
+  text-align: center;
+}
+.about-me .image-about-me .img-box img{
+  border: 10px solid transparent;
+  width: 100%;
+}
