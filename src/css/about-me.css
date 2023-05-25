@@ -1,5 +1,5 @@
 .about-me .image-about-me{
-  max-width: 40%;
+  max-width: 50%;
   padding: 0 15px;
 }
 
@@ -8,7 +8,41 @@
   border-radius: 5px;
   text-align: center;
 }
-.about-me .image-about-me .img-box img{
+.about-me .image-about-me  img{
   border: 10px solid transparent;
-  width: 100%;
+  border-radius: 5px;
+}
+
+.about-me .information-about-me{
+ max-width: 50%;
+ padding: 0 25px;
+}
+
+.about-me .information-about-me p{
+  font-size: var(--medium-font);
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+@media(max-width: 1280px) {
+  .about-me .row{
+    justify-content: center;
+  }
+
+  .about-me .image-about-me{
+    max-width: 100%;
+    padding: 0 var(--mobile-padding);
+    margin-bottom: 50px;
+  }
+
+  .about-me .information-about-me{
+    padding: 0 var(--mobile-padding);
+    text-align: center;
+  }
+}
+
+@media(max-width: 768px) {
+  .about-me .information-about-me{
+    max-width: 100%;
+  }
 }
