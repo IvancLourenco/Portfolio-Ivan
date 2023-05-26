@@ -11,6 +11,7 @@
 .about-me .image-about-me  img{
   border: 10px solid transparent;
   border-radius: 5px;
+  width: 100%;
 }
 
 .about-me .information-about-me{
