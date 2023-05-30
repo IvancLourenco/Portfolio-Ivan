@@ -1,0 +1,14 @@
+.footer{
+  margin-top: 6em;
+  text-align: center;
+  background-color: var(--color-background-light-gray);
+  padding: 4em 0;
+}
+
+.footer h2{
+  font-size: var(--normal-font);
+  font-family: var(--font-secundary);
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
